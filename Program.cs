@@ -6,7 +6,9 @@ namespace HelloDotNet
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to C#");
+      Console.WriteLine("Enter Name:");
+      string username= Console.ReadLine();
+      Console.WriteLine("Hello, World, my name is" + username);
     }
   }
 }
